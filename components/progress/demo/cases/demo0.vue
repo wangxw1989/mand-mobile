@@ -3,7 +3,7 @@
     <md-progress
       :size="100"
       :value="0.2"
-      :width="5"
+      :width="50"
     >
       <span class="progress-value">20%</span>
     </md-progress>
@@ -24,7 +24,8 @@
   </div>
 </template>
 
-<script>import {Progress} from 'mand-mobile'
+<script>
+import {Progress} from 'mand-mobile'
 
 export default {
   name: 'progress-demo',
@@ -32,7 +33,8 @@ export default {
     [Progress.name]: Progress,
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus">
 .md-example-child-progress
